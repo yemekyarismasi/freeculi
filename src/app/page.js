@@ -10,7 +10,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-20 bg-white">
         <div>
-          <h1 className="text-2xl font-black tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
+          <h1 className="text-2xl font-normal tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
           <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wider">Hands-Free Semantic Culinary Assistant</p>
         </div>
         <button
@@ -74,7 +74,7 @@ export default function Home() {
           
           {/* Column 1 */}
           <div>
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
+            <h3 className="text-xs font-normal text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
             <ul className="space-y-6">
               <li>
                 <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
@@ -105,7 +105,7 @@ export default function Home() {
 
           {/* Column 2 */}
           <div>
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
+            <h3 className="text-xs font-normal text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-4">
               <li>
                 <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
