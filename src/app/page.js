@@ -8,19 +8,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black font-sans selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       {/* HEADER */}
-      <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-20 bg-white">
-        <div>
-          <h1 className="text-2xl font-normal tracking-tight text-black">
-            HFSCA Methodology: <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
-          </h1>
-          <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wider">Hands-Free Semantic Culinary Assistant</p>
-        </div>
-        <button
-          onClick={() => setIsLicensingOpen(true)}
-          className="px-5 py-2.5 bg-black text-white text-sm font-bold hover:bg-gray-800 transition-colors rounded-none shadow-sm"
-        >
-          B2B Licensing
-        </button>
+      <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 sm:gap-6 relative z-20 bg-white">
+        <h1 className="text-2xl font-normal tracking-tight text-black">
+          HFSCA Methodology: <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
+        </h1>
+        <p className="text-sm text-gray-500 font-medium uppercase tracking-wider text-left sm:text-right">Hands-Free Semantic Culinary Assistant</p>
       </header>
 
       {/* MODAL / TAB */}
@@ -101,6 +93,17 @@ export default function Home() {
                   </div>
                   <span className="font-normal text-lg">info@freeculi.com</span>
                 </a>
+              </li>
+              <li className="pt-4">
+                <button
+                  onClick={() => setIsLicensingOpen(true)}
+                  className="group relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-black border-2 border-black hover:bg-transparent hover:text-black transition-colors"
+                >
+                  <span className="relative flex items-center gap-2">
+                    B2B Licensing
+                    <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                  </span>
+                </button>
               </li>
             </ul>
           </div>
