@@ -10,7 +10,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-20 bg-white">
         <div>
-          <h1 className="text-3xl font-black tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
+          <h1 className="text-3xl font-normal tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
           <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wider">Hands-Free Semantic Culinary Assistant</p>
         </div>
         <button
@@ -64,7 +64,7 @@ export default function Home() {
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
-          <p className="text-xl font-bold tracking-tight text-black">
+          <p className="text-xl font-normal tracking-tight text-black">
             Zero cloud. Zero cost. Absolute freedom. Welcome to the era of FreeCuli!
           </p>
         </section>
