@@ -139,7 +139,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://medium.com/@oytunciba/how-we-solved-multimodal-ai-hallucinations-by-reverse-engineering-the-generative-pipeline-c4c68c2aa813" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">Medium —</span> Solving AI Hallucinations
+                  <span className="text-gray-400">Medium —</span> Solving AI Hallucinations
                 </a>
               </li>
             </ul>
