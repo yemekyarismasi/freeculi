@@ -33,7 +33,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-black mb-6">Commercial Licensing</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              FreeCuli is the commercial ingredient brand for the HFSCA methodology. While HFSCA represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality and "zero-cloud dependency" for hardware manufacturers.
+              FreeCuli is the commercial ingredient brand for the HFSCA methodology. While HFSCA represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality and &quot;zero-cloud dependency&quot; for hardware manufacturers.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               Hardware manufacturers embedding the HFSCA architecture in proprietary firmware must acquire a commercial license to avoid the AGPL-3.0 open-source obligation.
