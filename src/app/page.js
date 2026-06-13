@@ -61,7 +61,7 @@ export default function Home() {
         
         {/* HERO */}
         <section className="mb-24 max-w-3xl">
-          <blockquote className="text-3xl md:text-4xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
+          <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
           <p className="text-xl font-bold tracking-tight text-black">
