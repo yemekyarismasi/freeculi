@@ -69,7 +69,7 @@ export default function Home() {
           {/* Column 1 */}
           <div>
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
-            <ul className="space-y-6">
+            <ul className="space-y-3">
               <li>
                 <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
@@ -94,7 +94,7 @@ export default function Home() {
                   <span className="font-normal text-lg">info@freeculi.com</span>
                 </a>
               </li>
-              <li className="pt-4">
+              <li>
                 <button
                   onClick={() => setIsLicensingOpen(true)}
                   className="group relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-black border-2 border-black hover:bg-transparent hover:text-black transition-colors"
@@ -111,7 +111,7 @@ export default function Home() {
           {/* Column 2 */}
           <div>
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               <li>
                 <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">GitHub —</span> smart-kitchen-assistant
