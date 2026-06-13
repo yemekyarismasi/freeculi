@@ -97,12 +97,12 @@ export default function Home() {
               <li>
                 <button
                   onClick={() => setIsLicensingOpen(true)}
-                  className="group relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-black border-2 border-black hover:bg-transparent hover:text-black transition-colors"
+                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left"
                 >
-                  <span className="relative flex items-center gap-2">
-                    B2B Licensing
-                    <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                  </span>
+                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
+                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </div>
+                  <span className="font-medium text-lg">B2B Licensing</span>
                 </button>
               </li>
             </ul>
