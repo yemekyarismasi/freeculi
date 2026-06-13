@@ -75,7 +75,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                   </div>
-                  <span className="font-normal text-lg">Smart Kitchen Assistant</span>
+                  <span className="font-normal text-base">Smart Kitchen Assistant</span>
                 </a>
               </li>
               <li>
@@ -83,7 +83,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                   </div>
-                  <span className="font-normal text-lg">YEMEK AI — Flagship Assistant</span>
+                  <span className="font-normal text-base">YEMEK AI — Flagship Assistant</span>
                 </a>
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                   </div>
-                  <span className="font-normal text-lg">info@freeculi.com</span>
+                  <span className="font-normal text-base">info@freeculi.com</span>
                 </a>
               </li>
               <li>
@@ -102,7 +102,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </div>
-                  <span className="font-normal text-lg">B2B Licensing</span>
+                  <span className="font-normal text-base">B2B Licensing</span>
                 </button>
               </li>
             </ul>
