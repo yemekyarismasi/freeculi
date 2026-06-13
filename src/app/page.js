@@ -10,7 +10,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-20 bg-white">
         <div>
-          <h1 className="text-2xl font-normal tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
+          <h1 className="text-3xl font-black tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
           <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wider">Hands-Free Semantic Culinary Assistant</p>
         </div>
         <button
@@ -74,14 +74,14 @@ export default function Home() {
           
           {/* Column 1 */}
           <div>
-            <h3 className="text-xs font-normal text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
+            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
             <ul className="space-y-6">
               <li>
                 <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                   </div>
-                  <span className="font-semibold text-lg">Smart Kitchen Assistant</span>
+                  <span className="font-normal text-lg">Smart Kitchen Assistant</span>
                 </a>
               </li>
               <li>
@@ -89,7 +89,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                   </div>
-                  <span className="font-semibold text-lg">YEMEK AI — Flagship Assistant</span>
+                  <span className="font-normal text-lg">YEMEK AI — Flagship Assistant</span>
                 </a>
               </li>
               <li>
@@ -97,7 +97,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                   </div>
-                  <span className="font-semibold text-lg">info@freeculi.com</span>
+                  <span className="font-normal text-lg">info@freeculi.com</span>
                 </a>
               </li>
             </ul>
@@ -105,35 +105,35 @@ export default function Home() {
 
           {/* Column 2 */}
           <div>
-            <h3 className="text-xs font-normal text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
+            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-4">
               <li>
-                <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">GitHub —</span> smart-kitchen-assistant
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yemekyarismasi/smart-kitchen-voice-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://github.com/yemekyarismasi/smart-kitchen-voice-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">GitHub —</span> smart-kitchen-voice-assistant
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yemekyarismasi/yemek-ai-whitepaper" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://github.com/yemekyarismasi/yemek-ai-whitepaper" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">GitHub —</span> yemek-ai-whitepaper
                 </a>
               </li>
               <li className="pt-2">
-                <a href="https://medium.com/@oytunciba/freeculi-the-new-global-standard-for-smart-kitchen-ai-17f0cfbea03d" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://medium.com/@oytunciba/freeculi-the-new-global-standard-for-smart-kitchen-ai-17f0cfbea03d" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">Medium —</span> The FreeCuli Manifesto
                 </a>
               </li>
               <li>
-                <a href="https://medium.com/@oytunciba/why-big-tech-is-failing-at-the-smart-kitchen-and-how-we-solved-it-with-zero-cost-edge-ai-c471900da42e" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://medium.com/@oytunciba/why-big-tech-is-failing-at-the-smart-kitchen-and-how-we-solved-it-with-zero-cost-edge-ai-c471900da42e" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">Medium —</span> Why Big Tech Fails
                 </a>
               </li>
               <li>
-                <a href="https://medium.com/@oytunciba/how-we-solved-multimodal-ai-hallucinations-by-reverse-engineering-the-generative-pipeline-c4c68c2aa813" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-medium flex items-center gap-2">
+                <a href="https://medium.com/@oytunciba/how-we-solved-multimodal-ai-hallucinations-by-reverse-engineering-the-generative-pipeline-c4c68c2aa813" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400 text-sm">Medium —</span> Solving AI Hallucinations
                 </a>
               </li>
