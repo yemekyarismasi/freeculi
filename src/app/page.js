@@ -102,7 +102,7 @@ export default function Home() {
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </div>
-                  <span className="font-medium text-lg">B2B Licensing</span>
+                  <span className="font-normal text-lg">B2B Licensing</span>
                 </button>
               </li>
             </ul>
