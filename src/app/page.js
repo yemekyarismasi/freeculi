@@ -57,10 +57,10 @@ export default function Home() {
       )}
 
       {/* MAIN CONTENT - Hidden visually when modal is open, but kept in DOM */}
-      <main className={`flex-1 w-full max-w-5xl mx-auto px-6 pt-16 pb-24 transition-opacity duration-300 ${isLicensingOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+      <main className={`flex-1 w-full max-w-5xl mx-auto px-6 pt-8 pb-8 transition-opacity duration-300 ${isLicensingOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
         
         {/* HERO */}
-        <section className="mb-24 max-w-3xl">
+        <section className="mb-10 max-w-3xl">
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
@@ -70,7 +70,7 @@ export default function Home() {
         </section>
 
         {/* ECOSYSTEM & RESEARCH */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 border-t border-gray-200 pt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 border-t border-gray-200 pt-10">
           
           {/* Column 1 */}
           <div>
@@ -144,7 +144,7 @@ export default function Home() {
       </main>
 
       {/* FOOTER */}
-      <footer className="w-full max-w-5xl mx-auto px-6 py-10 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 bg-white">
+      <footer className="w-full max-w-5xl mx-auto px-6 py-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 bg-white">
         <p className="text-sm text-gray-500 font-medium">
           © {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
         </p>
