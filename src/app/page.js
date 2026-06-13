@@ -114,27 +114,27 @@ export default function Home() {
             <ul className="space-y-3">
               <li>
                 <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">GitHub —</span> smart-kitchen-assistant
+                  <span className="text-gray-400">GitHub —</span> smart-kitchen-assistant
                 </a>
               </li>
               <li>
                 <a href="https://github.com/yemekyarismasi/smart-kitchen-voice-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">GitHub —</span> smart-kitchen-voice-assistant
+                  <span className="text-gray-400">GitHub —</span> smart-kitchen-voice-assistant
                 </a>
               </li>
               <li>
                 <a href="https://github.com/yemekyarismasi/yemek-ai-whitepaper" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">GitHub —</span> yemek-ai-whitepaper
+                  <span className="text-gray-400">GitHub —</span> yemek-ai-whitepaper
                 </a>
               </li>
               <li className="pt-2">
                 <a href="https://medium.com/@oytunciba/freeculi-the-new-global-standard-for-smart-kitchen-ai-17f0cfbea03d" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">Medium —</span> The FreeCuli Manifesto
+                  <span className="text-gray-400">Medium —</span> The FreeCuli Manifesto
                 </a>
               </li>
               <li>
                 <a href="https://medium.com/@oytunciba/why-big-tech-is-failing-at-the-smart-kitchen-and-how-we-solved-it-with-zero-cost-edge-ai-c471900da42e" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">Medium —</span> Why Big Tech Fails
+                  <span className="text-gray-400">Medium —</span> Why Big Tech Fails
                 </a>
               </li>
               <li>
