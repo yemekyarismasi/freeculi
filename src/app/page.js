@@ -59,7 +59,7 @@ export default function Home() {
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
           <p className="text-xl font-normal tracking-tight text-black">
-            Zero cloud. Zero cost. Absolute freedom. Welcome to the era of <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>!
+            Zero cloud. Zero cost. Absolute freedom. Welcome to the era of <span>Free</span><span className="text-blue-600">Culi</span>!
           </p>
         </section>
 
