@@ -10,7 +10,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-20 bg-white">
         <div>
-          <h1 className="text-3xl font-normal tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
+          <h1 className="text-2xl font-normal tracking-tight text-black">HFSCA Methodology: FreeCuli</h1>
           <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wider">Hands-Free Semantic Culinary Assistant</p>
         </div>
         <button
