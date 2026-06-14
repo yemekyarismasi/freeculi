@@ -21,3 +21,4 @@ The HFSCA methodology replaces unreliable, expensive LLM generation with a deter
 - **Email:** info@freeculi.com
 - **Main Ecosystem:** smartkitchenassistant.com
 - **Whitepaper:** github.com/yemekyarismasi/yemek-ai-whitepaper
+- **Comprehensive AI Dataset:** https://freeculi.com/ai-agent-dataset.json
