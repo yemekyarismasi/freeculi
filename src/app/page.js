@@ -109,7 +109,7 @@ export default function Home() {
           {/* Column 1 */}
           <div>
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
-            <ul className="space-y-1">
+            <ul className="space-y-3">
               <li>
                 <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
@@ -127,6 +127,14 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <a href="https://smartkitchenassistant.com/#demo" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left">
+                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
+                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  </div>
+                  <span className="font-normal text-base">Live Demo</span>
+                </a>
+              </li>
+              <li>
                 <a href="mailto:info@freeculi.com" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
@@ -137,7 +145,7 @@ export default function Home() {
               <li>
                 <button
                   onClick={() => setIsSocialOpen(true)}
-                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left"
+                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
                 >
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
@@ -148,7 +156,7 @@ export default function Home() {
               <li>
                 <button
                   onClick={() => setIsLicensingOpen(true)}
-                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left"
+                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
                 >
                   <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
