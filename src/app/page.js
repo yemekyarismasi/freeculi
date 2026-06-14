@@ -111,57 +111,57 @@ export default function Home() {
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
             <ul className="space-y-3">
               <li>
-                <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors">
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                   </div>
-                  <span className="font-normal text-base">Smart Kitchen Assistant</span>
+                  <span className="font-normal text-base leading-none">Smart Kitchen Assistant</span>
                 </a>
               </li>
               <li>
-                <a href="https://yemekyarismasi.com/yemek-ai" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <a href="https://yemekyarismasi.com/yemek-ai" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors">
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                   </div>
-                  <span className="font-normal text-base">YEMEK AI — Flagship Assistant</span>
+                  <span className="font-normal text-base leading-none">YEMEK AI — Flagship Assistant</span>
                 </a>
               </li>
               <li>
-                <a href="https://smartkitchenassistant.com/#demo" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left">
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <a href="https://smartkitchenassistant.com/#demo" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors text-left">
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   </div>
-                  <span className="font-normal text-base">Live Demo</span>
+                  <span className="font-normal text-base leading-none">Live Demo</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@freeculi.com" className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors">
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <a href="mailto:info@freeculi.com" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors">
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                   </div>
-                  <span className="font-normal text-base">info@freeculi.com</span>
+                  <span className="font-normal text-base leading-none">info@freeculi.com</span>
                 </a>
               </li>
               <li>
                 <button
                   onClick={() => setIsSocialOpen(true)}
-                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
+                  className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
                 >
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
                   </div>
-                  <span className="font-normal text-base">Social Media</span>
+                  <span className="font-normal text-base leading-none">Social Media</span>
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => setIsLicensingOpen(true)}
-                  className="group flex items-center gap-4 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
+                  className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors text-left w-full"
                 >
-                  <div className="w-10 h-10 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors">
-                    <svg className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </div>
-                  <span className="font-normal text-base">B2B Licensing</span>
+                  <span className="font-normal text-base leading-none">B2B Licensing</span>
                 </button>
               </li>
             </ul>
