@@ -123,7 +123,7 @@ export default function Home() {
                   <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
                     <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                   </div>
-                  <span className="font-normal text-base leading-none">YEMEK AI — Flagship Assistant</span>
+                  <span className="font-normal text-base leading-none">YEMEK AI</span>
                 </a>
               </li>
               <li>
