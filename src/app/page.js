@@ -98,9 +98,27 @@ export default function Home() {
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
-          <p className="text-xl font-normal tracking-tight text-black">
-            Zero cloud. Zero cost. Absolute freedom. Welcome to the era of FreeCuli!
+          <p className="text-xl font-normal tracking-tight text-black mb-8">
+            Zero cloud. Zero cost. Absolute hands-free freedom. Absolute privacy. Welcome to the era of FreeCuli!
           </p>
+          <ul className="space-y-4 text-gray-700">
+            <li className="flex items-start gap-3">
+              <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Zero cloud:</strong> End of cloud dependency and server bills (Architectural independence).</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Zero cost:</strong> Complete elimination of lifelong cloud operational expenses (Financial edge for manufacturers).</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Absolute hands-free freedom:</strong> Eradication of physical barriers caused by wet/floury hands and background noise in the kitchen (UX freedom).</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Absolute privacy:</strong> Zero risk at the architectural level against data leaks and compliance nightmares like GDPR/KVKK (Legal and privacy shield).</span>
+            </li>
+          </ul>
         </section>
 
         {/* ECOSYSTEM & RESEARCH */}

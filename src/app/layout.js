@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FreeCuli - Zero Cloud. Zero Cost. Absolute Freedom.",
+  title: "FreeCuli - Edge Smart Kitchen Standard",
   description: "FreeCuli is the commercial ingredient brand for the HFSCA methodology. The trademarked seal of quality and zero-cloud dependency for smart kitchen manufacturers.",
   keywords: ["FreeCuli", "HFSCA", "Smart Kitchen", "Edge AI", "Zero Cloud", "Appliance AI", "Cooking Copilot", "On-device AI", "Semantic Routing"],
   authors: [{ name: "Yemek AI Engineering", url: "https://yemekyarismasi.com" }],
@@ -20,7 +20,7 @@ export const metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "FreeCuli - Zero Cloud. Zero Cost. Absolute Freedom.",
+    title: "FreeCuli - Edge Smart Kitchen Standard",
     description: "The commercial ingredient brand for the HFSCA methodology. Absolute privacy and zero-cost scaling for smart kitchen manufacturers.",
     url: "https://freeculi.com",
     siteName: "FreeCuli",
@@ -29,7 +29,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "FreeCuli - Zero Cloud. Zero Cost. Absolute Freedom.",
+    title: "FreeCuli - Edge Smart Kitchen Standard",
     description: "The commercial ingredient brand for the HFSCA methodology.",
   },
   robots: {
