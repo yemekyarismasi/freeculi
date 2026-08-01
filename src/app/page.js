@@ -20,8 +20,8 @@ export default function Home() {
               Edge Smart Kitchen Standard
             </span>
           </h1>
-          <p className="text-xs sm:text-sm text-gray-500 font-bold sm:font-medium uppercase tracking-wider text-right mt-1 sm:mt-0 whitespace-nowrap ml-4">
-            HFSCA <span className="hidden min-[400px]:inline">Methodology</span>
+          <p className="text-[11px] sm:text-sm text-gray-500 font-bold sm:font-medium uppercase tracking-wider text-right mt-1.5 sm:mt-0 whitespace-nowrap ml-4">
+            HFSCA Methodology
           </p>
         </div>
       </header>
