@@ -153,7 +153,7 @@ export default function Home() {
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-blue-600 mb-6">
-            The world's first edge-native, zero-cloud smart kitchen certification standard.
+            The world&apos;s first edge-native, zero-cloud smart kitchen certification standard.
           </h2>
           <p className="text-xl font-normal tracking-tight text-black mb-8">
             Zero cloud. Zero cost. Absolute hands-free freedom. Absolute privacy. Welcome to the era of FreeCuli!
