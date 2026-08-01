@@ -9,11 +9,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black font-sans selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       {/* HEADER */}
-      <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 sm:gap-6 relative z-20 bg-white">
-        <h1 className="text-2xl font-normal tracking-tight text-black">
-          HFSCA Methodology: <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
+      <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-6 relative z-20 bg-white">
+        <h1 className="text-xl md:text-2xl font-normal tracking-tight text-black flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+          <span><span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span></span>
+          <span className="text-gray-300 hidden sm:inline text-xl">|</span>
+          <span className="text-lg text-gray-600">Edge Smart Kitchen Standard</span>
         </h1>
-        <p className="text-sm text-gray-500 font-medium uppercase tracking-wider text-left sm:text-right">Hands-Free Semantic Culinary Assistant</p>
+        <p className="text-sm text-gray-500 font-medium uppercase tracking-wider text-left sm:text-right">HFSCA Methodology</p>
       </header>
 
       {/* MODAL / TAB */}
