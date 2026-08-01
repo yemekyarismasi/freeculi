@@ -36,19 +36,19 @@ export default function Home() {
             className="max-w-2xl w-full p-8 md:p-12 bg-white border border-gray-200 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className="text-3xl font-black mb-6">Commercial Licensing</h2>
+            <h2 className="text-3xl font-black mb-6">Enterprise Certification</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              FreeCuli is the commercial ingredient brand for the HFSCA methodology. While HFSCA represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality and &quot;zero-cloud dependency&quot; for hardware manufacturers.
+              FreeCuli is the commercial certification and ingredient brand for the HFSCA methodology. While HFSCA represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality, guaranteeing &quot;zero-cloud dependency&quot; for hardware manufacturers.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Hardware manufacturers embedding the HFSCA architecture in proprietary firmware must acquire a commercial license to avoid the AGPL-3.0 open-source obligation.
+              Industrial manufacturers utilizing the HFSCA architecture in proprietary hardware must acquire a B2B Certification and Trademark License to ensure compliance and legally display the #FreeCULI badge.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a 
                 href="mailto:info@freeculi.com" 
                 className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-bold hover:bg-blue-700 transition-colors text-center"
               >
-                Contact Commercial Team
+                Contact Certification Team
               </a>
               <button 
                 onClick={() => setIsLicensingOpen(false)}
@@ -246,7 +246,7 @@ export default function Home() {
                   <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
                     <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </div>
-                  <span className="font-normal text-base leading-none">B2B Licensing</span>
+                  <span className="font-normal text-base leading-none">B2B Certification</span>
                 </button>
               </li>
             </ul>
