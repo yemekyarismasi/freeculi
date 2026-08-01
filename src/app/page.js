@@ -9,13 +9,21 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black font-sans selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       {/* HEADER */}
-      <header className="w-full max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-6 relative z-20 bg-white">
-        <h1 className="text-xl md:text-2xl font-normal tracking-tight text-black flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
-          <span><span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span></span>
-          <span className="text-gray-300 hidden sm:inline text-xl">|</span>
-          <span className="text-lg text-gray-600">Edge Smart Kitchen Standard</span>
-        </h1>
-        <p className="text-sm text-gray-500 font-medium uppercase tracking-wider text-left sm:text-right">HFSCA Methodology</p>
+      <header className="w-full max-w-5xl mx-auto px-6 py-6 sm:py-8 relative z-20 bg-white">
+        <div className="flex flex-row justify-between items-start sm:items-center">
+          <h1 className="flex flex-col sm:flex-row sm:items-baseline sm:gap-3">
+            <span className="text-xl md:text-2xl tracking-tight text-black">
+              <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
+            </span>
+            <span className="hidden sm:inline text-gray-300 text-xl font-normal">|</span>
+            <span className="text-base sm:text-lg text-gray-600 mt-1 sm:mt-0 font-normal tracking-tight">
+              Edge Smart Kitchen Standard
+            </span>
+          </h1>
+          <p className="text-xs sm:text-sm text-gray-500 font-bold sm:font-medium uppercase tracking-wider text-right mt-1 sm:mt-0 whitespace-nowrap ml-4">
+            HFSCA <span className="hidden min-[400px]:inline">Methodology</span>
+          </p>
+        </div>
       </header>
 
       {/* MODAL / TAB */}
