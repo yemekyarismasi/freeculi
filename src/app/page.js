@@ -152,7 +152,7 @@ export default function Home() {
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-blue-600 mb-6">
+          <h2 className="text-xl font-semibold tracking-tight text-blue-500 mb-4">
             The world&apos;s first edge-native, zero-cloud smart kitchen certification standard.
           </h2>
           <p className="text-xl font-normal tracking-tight text-black mb-8">
