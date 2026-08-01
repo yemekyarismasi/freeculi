@@ -190,18 +190,18 @@ export default function Home() {
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-3">
               <li>
-                <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> smart-kitchen-assistant
+                <a href="https://github.com/FreeCuli" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> FreeCuli Organization
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yemekyarismasi/smart-kitchen-voice-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> smart-kitchen-voice-assistant
+                <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> smart-kitchen-offline-assistant
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yemekyarismasi/yemek-ai-whitepaper" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> yemek-ai-whitepaper
+                <a href="https://github.com/FreeCuli/standards" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> standards (Whitepaper)
                 </a>
               </li>
               <li className="pt-2">
@@ -228,7 +228,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="w-full max-w-5xl mx-auto px-6 py-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 bg-white">
         <p className="text-sm text-gray-500 font-medium">
-          © {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/yemekyarismasi/smart-kitchen-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
+          © {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
         </p>
         <div className="flex items-center gap-4">
           <a href="https://yemekyarismasi.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-gray-400 hover:text-black transition-colors">
