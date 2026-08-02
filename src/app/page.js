@@ -195,14 +195,7 @@ export default function Home() {
           <div>
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">APSNY Ecosystem</h3>
             <ul className="space-y-3">
-              <li>
-                <a href="https://medium.com/@oytunciba/the-worlds-first-zero-cloud-smart-kitchen-standard-freeculi-3fdacc0678cb" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors">
-                  <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
-                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                  </div>
-                  <span className="font-normal text-base leading-none">The FreeCuli Manifesto</span>
-                </a>
-              </li>
+
               <li>
                 <a href="https://smartkitchenassistant.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-gray-900 hover:text-blue-600 transition-colors">
                   <div className="w-7 h-7 flex items-center justify-center bg-gray-50 group-hover:bg-blue-50 transition-colors rounded-md">
@@ -271,7 +264,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> smart-kitchen-offline-assistant
+                  <span className="text-gray-400">GitHub —</span> Smart Kitchen Offline Assistant
                 </a>
               </li>
               <li>
@@ -280,7 +273,7 @@ export default function Home() {
                 </a>
               </li>
               <li className="pt-2">
-                <a href="https://medium.com/@oytunciba/freeculi-the-new-global-standard-for-smart-kitchen-ai-17f0cfbea03d" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://medium.com/@oytunciba/the-worlds-first-zero-cloud-smart-kitchen-standard-freeculi-3fdacc0678cb" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">Medium —</span> The FreeCuli Manifesto
                 </a>
               </li>
