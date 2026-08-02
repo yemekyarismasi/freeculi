@@ -274,7 +274,7 @@ export default function Home() {
               </li>
               <li className="pt-2">
                 <a href="https://medium.com/@oytunciba/the-worlds-first-zero-cloud-smart-kitchen-standard-freeculi-3fdacc0678cb" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Medium —</span> The FreeCuli Manifesto
+                  <span className="text-gray-400">Medium —</span> Smart Kitchen Certification
                 </a>
               </li>
               <li>
