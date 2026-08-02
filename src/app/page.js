@@ -275,8 +275,8 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/standards" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> standards (Whitepaper)
+                <a href="https://github.com/FreeCuli/smart-kitchen-standards" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> Smart Kitchen Standards
                 </a>
               </li>
               <li className="pt-2">
