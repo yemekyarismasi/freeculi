@@ -165,7 +165,7 @@ export default function Home() {
 
           <div className="mb-6 flex items-center gap-4 flex-wrap">
             <a href="https://doi.org/10.5281/zenodo.22838474" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
-              <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22838474.svg" alt="DOI" className="h-6 shadow-sm" />
+              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22838474-blue" alt="DOI" className="h-6 shadow-sm" />
             </a>
             <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
             <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
