@@ -162,6 +162,15 @@ export default function Home() {
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
             “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
           </blockquote>
+
+          <div className="mb-6 flex items-center gap-4 flex-wrap">
+            <a href="https://doi.org/10.5281/zenodo.22838474" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
+              <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22838474.svg" alt="DOI" className="h-6 shadow-sm" />
+            </a>
+            <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
+            <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
+          </div>
+
           <h2 className="text-xl font-semibold tracking-tight text-blue-500 mb-4">
             The world&apos;s first edge-native, zero-cloud smart kitchen certification standard.
           </h2>
@@ -257,6 +266,11 @@ export default function Home() {
           <div>
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-3">
+              <li>
+                <a href="https://doi.org/10.5281/zenodo.22838474" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">Zenodo (CERN) —</span> Official Academic DOI
+                </a>
+              </li>
               <li>
                 <a href="https://github.com/FreeCuli" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> FreeCuli Organization
