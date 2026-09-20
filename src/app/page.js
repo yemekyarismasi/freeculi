@@ -308,8 +308,23 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/Zero-Cloud-Smart-Home-Edge-AI-Architecture.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> Zero-Cloud Architecture Whitepaper
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/FC-ZC-Conformance-Test-Specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> Conformance Test Specification
+                </a>
+              </li>
+              <li>
                 <a href="https://github.com/FreeCuli" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> FreeCuli Organization
+                </a>
+              </li>
+              <li className="pt-2">
+                <a href="https://medium.com/@oytunciba/a-revolution-in-open-source-software-and-hardware-licensing-law-cern-ohl-s-methodological-bad06888de6c" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2 font-bold">
+                  <span className="text-gray-400 font-normal">Medium —</span> Legal Licensing Revolution Manifesto
                 </a>
               </li>
               <li>
