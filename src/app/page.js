@@ -368,7 +368,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/RELEASE-MANIFEST-v3.1.0.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-RELEASE-MANIFEST.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> ZC-CORE Release Manifest (SHA-256)
                 </a>
               </li>
