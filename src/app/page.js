@@ -43,7 +43,7 @@ export default function Home() {
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               Industrial manufacturers utilizing the ZC-CORE architecture in proprietary hardware must acquire a B2B Certification and Trademark License to ensure compliance and legally display the #FreeCULI badge.
               <br/><br/>
-              <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/DUAL-LICENSING.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-semibold hover:text-blue-800">
+              <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-dual-licensing.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-semibold hover:text-blue-800">
                 Read the Official Dual-Licensing Framework & Patent Retaliation Clauses
               </a>
             </p>
@@ -373,7 +373,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/DUAL-LICENSING.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-dual-licensing.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Dual-Licensing Framework
                 </a>
               </li>
