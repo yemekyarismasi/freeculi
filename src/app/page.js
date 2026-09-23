@@ -210,7 +210,7 @@ export default function Home() {
           </div>
           
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 relative z-10">
-            FreeCuli Zero-Cloud Hardware Standard (FC-ZC v1.0)
+            FreeCuli Zero-Cloud Hardware Standard (FC-ZC v3.0.0)
           </h2>
           <p className="text-blue-700 font-medium text-lg mb-4 italic relative z-10">
             &quot;FreeCuli does not require trust. It requires reproducing the test.&quot;
@@ -325,7 +325,17 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/FC-ZC-Conformance-Test-Specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v2.1.0)
+                  <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v3.0.0)
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-METHODOLOGY-INVARIANTS.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> ZC-CORE Methodology Invariants
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/DUAL-LICENSING.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> Dual-Licensing Framework
                 </a>
               </li>
               <li>
