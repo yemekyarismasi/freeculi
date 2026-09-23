@@ -225,7 +225,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-3 relative z-10">
             <a 
-              href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/Zero-Cloud-Smart-Home-Edge-AI-Architecture.md" 
+              href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-hardware-reference-architecture.md" 
               target="_blank" rel="noopener noreferrer"
               className="px-5 py-2.5 bg-black text-white text-sm font-bold tracking-wide rounded-lg hover:bg-gray-800 transition-colors text-center shadow-md flex items-center justify-center gap-2"
             >
@@ -233,7 +233,7 @@ export default function Home() {
               Reference Architecture
             </a>
             <a 
-              href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/FC-ZC-Conformance-Test-Specification.md" 
+              href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-conformance-test-specification.md" 
               target="_blank" rel="noopener noreferrer"
               className="px-5 py-2.5 bg-blue-600 text-white text-sm font-bold tracking-wide rounded-lg hover:bg-blue-700 transition-colors text-center shadow-md flex items-center justify-center gap-2"
             >
@@ -318,57 +318,57 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/Zero-Cloud-Smart-Home-Edge-AI-Architecture.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-hardware-reference-architecture.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Zero-Cloud Architecture Whitepaper
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/Zero-Cloud-Defensive-Publication.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-defensive-publication.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Defensive Publication (Prior-Art)
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/FC-ZC-Conformance-Test-Specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-conformance-test-specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v3.1.0)
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-METHODOLOGY-INVARIANTS.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-methodology-invariants.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> ZC-CORE Methodology Invariants
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-ATTACK-TAXONOMY.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-attack-taxonomy.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> ZC-CORE Attack Taxonomy
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-IMPLEMENTATION-COVERAGE.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-implementation-coverage.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> ZC-CORE Coverage Matrix
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-CONFORMANCE-EVIDENCE-MATRIX.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-conformance-evidence-matrix.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Conformance Evidence Matrix
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-SCOPE-BOUNDARY.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-scope-boundary.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Scope & Boundary Definition
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-BRAND-AND-TRADEMARK-POLICY.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-brand-and-trademark-policy.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Brand & Trademark Policy
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-VERSIONING-AND-GOVERNANCE.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-versioning-and-governance.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> Versioning & Governance Policy
                 </a>
               </li>
               <li>
-                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZC-CORE-RELEASE-MANIFEST.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZERO-CLOUD-RELEASE-MANIFEST.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">GitHub —</span> ZC-CORE Release Manifest (SHA-256)
                 </a>
               </li>
