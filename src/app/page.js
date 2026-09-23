@@ -17,11 +17,11 @@ export default function Home() {
             </span>
             <span className="hidden sm:inline text-gray-300 text-xl font-normal">|</span>
             <span className="text-base sm:text-lg text-gray-600 mt-1 sm:mt-0 font-normal tracking-tight">
-              Edge Smart Kitchen Standard
+              Universal Zero-Cloud Hardware Methodology
             </span>
           </h1>
           <p className="text-[11px] sm:text-sm text-gray-500 font-bold sm:font-medium uppercase tracking-wider text-right mt-1.5 sm:mt-0 whitespace-nowrap ml-4">
-            HFSCA Methodology
+            ZC-CORE Standard
           </p>
         </div>
       </header>
@@ -38,10 +38,10 @@ export default function Home() {
           >
             <h2 className="text-3xl font-black mb-6">Enterprise Certification</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              FreeCuli is the commercial certification and ingredient brand for the HFSCA methodology. While HFSCA represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality, guaranteeing &quot;zero-cloud dependency&quot; for hardware manufacturers.
+              FreeCuli is the commercial certification and ingredient brand for the ZC-CORE methodology. While ZC-CORE represents the open-source architectural foundation, FreeCuli serves as the trademarked seal of quality, guaranteeing &quot;zero-cloud dependency&quot; for hardware manufacturers.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Industrial manufacturers utilizing the HFSCA architecture in proprietary hardware must acquire a B2B Certification and Trademark License to ensure compliance and legally display the #FreeCULI badge.
+              Industrial manufacturers utilizing the ZC-CORE architecture in proprietary hardware must acquire a B2B Certification and Trademark License to ensure compliance and legally display the #FreeCULI badge.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a 
@@ -164,15 +164,21 @@ export default function Home() {
           </blockquote>
 
           <div className="mb-6 flex items-center gap-4 flex-wrap">
-            <a href="https://doi.org/10.5281/zenodo.22838474" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
-              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22838474-blue" alt="DOI" className="h-6 shadow-sm" />
+            <a href="https://doi.org/10.5281/zenodo.22838473" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
+              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22838473-blue" alt="DOI" className="h-6 shadow-sm" />
+            </a>
+            <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
+              {/* Masaüstü OIN (Yatay) */}
+              <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block h-6 shadow-sm rounded-sm" />
+              {/* Mobil OIN (Kare) */}
+              <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden h-6 shadow-sm rounded-sm" />
             </a>
             <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
             <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
           </div>
 
           <h2 className="text-xl font-semibold tracking-tight text-blue-500 mb-4">
-            The world&apos;s first edge-native, zero-cloud smart kitchen certification standard.
+            The world&apos;s first edge-native, zero-cloud hardware certification standard.
           </h2>
           <p className="text-xl font-normal tracking-tight text-black mb-8">
             Zero cloud. Zero cost. Absolute hands-free freedom. Absolute privacy. Welcome to the era of FreeCuli!
@@ -303,7 +309,7 @@ export default function Home() {
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-3">
               <li>
-                <a href="https://doi.org/10.5281/zenodo.22838474" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://doi.org/10.5281/zenodo.22838473" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">Zenodo (CERN) —</span> Official Academic DOI
                 </a>
               </li>
@@ -313,8 +319,13 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/Zero-Cloud-Defensive-Publication.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                  <span className="text-gray-400">GitHub —</span> Defensive Publication (Prior-Art)
+                </a>
+              </li>
+              <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/FC-ZC-Conformance-Test-Specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v1.1.0)
+                  <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v2.1.0)
                 </a>
               </li>
               <li>

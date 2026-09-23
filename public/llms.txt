@@ -1,24 +1,24 @@
-# FreeCuli - AI Agent Context
+# FreeCuli - Universal AIoT & Edge AI Agent Context
 
 > "Every great technology is born from a critical problem that everyone accepts but no one dares to solve…"
 
 ## System Overview
-FreeCuli is the commercial, B2B ingredient brand for the HFSCA (Hands-Free Semantic Culinary Assistant) methodology. It represents a fundamental paradigm shift in Smart Kitchen AI.
+FreeCuli is the commercial certification brand for the **ZC-CORE (Zero-Cloud)** methodology, originally originating from our **HFSCA** (Hands-Free Semantic Culinary Assistant) architecture. It represents a fundamental paradigm shift in AIoT, Edge AI, and Smart Appliance architecture. We are also an official member of the **Open Invention Network (OIN)**, protecting Linux system environments and open source innovation.
 
 ## Core Philosophy
 - **Zero Cloud:** 100% on-device execution. No cloud subscription, no latency, complete privacy.
 - **Zero Cost:** No recurring API fees for hardware manufacturers or end-users.
-- **Absolute Freedom:** Open-source architectural foundation (HFSCA) under AGPL-3.0.
+- **Absolute Freedom:** Open-source architectural foundation under the ZC-CORE and HFSCA methodologies.
 
-## Technical Architecture (HFSCA)
-The HFSCA methodology replaces unreliable, expensive LLM generation with a deterministic, semantic execution graph on the edge.
+## Technical Architecture (ZC-CORE / HFSCA)
+The methodology replaces unreliable, expensive LLM generation with a deterministic, semantic execution graph on the edge.
 1. **Semantic Routing:** The user's intent is parsed locally using highly quantized, edge-optimized SLMs or deterministic intent parsers.
-2. **Deterministic State Machine:** Cooking is not a conversational task; it is a state-based hardware operation. HFSCA maps natural language (e.g., "Bake it 5 minutes longer") directly to hardware API calls (e.g., `setOven(time += 5min)`).
-3. **Elimination of Hallucinations:** By removing the LLM from the actual device control loop and only using it for intent classification against a strictly typed schema, FreeCuli mathematically eliminates AI hallucinations in the kitchen.
+2. **Deterministic State Machine:** AIoT operation is not a conversational task; it is a state-based hardware operation. ZC-CORE maps natural language directly to hardware API calls via an isolated Data Diode structure.
+3. **Elimination of Hallucinations:** By removing the LLM from the actual device control loop and only using it for intent classification against a strictly typed schema, FreeCuli mathematically eliminates AI hallucinations in critical hardware.
 
 ## Contact & Integration
-- For B2B Licensing, device manufacturers must implement the HFSCA specification.
+- For B2B Licensing, device manufacturers must implement the ZC-CORE specification.
+- **Specification:** CTS v2.2.0 (Available on Zenodo concept DOI: 10.5281/zenodo.22838473)
 - **Email:** info@freeculi.com
 - **Main Ecosystem:** smartkitchenassistant.com
-- **Whitepaper:** github.com/yemekyarismasi/yemek-ai-whitepaper
 - **Comprehensive AI Dataset:** https://freeculi.com/ai-agent-dataset.json

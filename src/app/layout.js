@@ -4,9 +4,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FreeCuli - Edge Smart Kitchen Standard",
-  description: "FreeCuli is the commercial ingredient brand for the HFSCA methodology. The trademarked seal of quality and zero-cloud dependency for smart kitchen manufacturers.",
-  keywords: ["FreeCuli", "HFSCA", "Smart Kitchen", "Edge AI", "Zero Cloud", "Appliance AI", "Cooking Copilot", "On-device AI", "Semantic Routing"],
+  title: "FreeCuli - Universal Zero-Cloud Hardware Methodology",
+  description: "FreeCuli is the commercial certification brand for the ZC-CORE methodology. The trademarked seal of quality and zero-cloud dependency for AIoT and Edge AI hardware manufacturers.",
+  keywords: ["FreeCuli", "ZC-CORE", "AIoT", "Edge AI", "Zero Cloud", "Hardware Trust Boundary", "Appliance AI", "Data Diode", "Semantic Routing"],
   authors: [{ name: "Yemek AI Engineering", url: "https://yemekyarismasi.com" }],
   creator: "Yemek AI Engineering",
   publisher: "FreeCuli",
@@ -20,8 +20,8 @@ export const metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "FreeCuli - Edge Smart Kitchen Standard",
-    description: "The commercial ingredient brand for the HFSCA methodology. Absolute privacy and zero-cost scaling for smart kitchen manufacturers.",
+    title: "FreeCuli - Universal Zero-Cloud Hardware Methodology",
+    description: "The commercial certification brand for the ZC-CORE methodology. Absolute privacy and physical zero-cloud compliance for AIoT and Edge AI hardware manufacturers.",
     url: "https://freeculi.com",
     siteName: "FreeCuli",
     locale: "en_US",
@@ -29,8 +29,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "FreeCuli - Edge Smart Kitchen Standard",
-    description: "The commercial ingredient brand for the HFSCA methodology.",
+    title: "FreeCuli - Universal Zero-Cloud Hardware Methodology",
+    description: "The commercial certification brand for the ZC-CORE methodology.",
   },
   robots: {
     index: true,
