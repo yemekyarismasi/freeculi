@@ -168,8 +168,8 @@ export default function Home() {
           </blockquote>
 
           <div className="mb-6 flex items-center gap-4 flex-wrap">
-            <a href="https://doi.org/10.5281/zenodo.22838473" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
-              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22838473-blue" alt="DOI" className="h-6 shadow-sm" />
+            <a href="https://doi.org/10.5281/zenodo.22924857" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
+              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22924857-blue" alt="DOI" className="h-6 shadow-sm" />
             </a>
             <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
               {/* Masaüstü OIN (Yatay) */}
@@ -313,7 +313,7 @@ export default function Home() {
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Open Source & Research</h3>
             <ul className="space-y-3">
               <li>
-                <a href="https://doi.org/10.5281/zenodo.22838473" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
+                <a href="https://doi.org/10.5281/zenodo.22924857" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
                   <span className="text-gray-400">Zenodo (CERN) —</span> Official Academic DOI
                 </a>
               </li>
