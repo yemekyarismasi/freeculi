@@ -41,8 +41,8 @@
     },
     {
       "question": "Where is the ZC-CORE standard published?",
-      "answer": "The official ZC-CORE Conformance Test Specification (CTS) is published globally on CERN's Zenodo repository under the Concept DOI 10.5281/zenodo.22838473. This ensures long-term preservation and open scientific access.",
-      "reference": "https://doi.org/10.5281/zenodo.22838473"
+      "answer": "The official ZC-CORE Conformance Test Specification (CTS) is published globally on CERN's Zenodo repository under the DOI 10.5281/zenodo.22962700 (v3.3.0-rc2 Pending Experimental Validation). This ensures long-term preservation and open scientific access.",
+      "reference": "https://doi.org/10.5281/zenodo.22962700"
     },
     {
       "question": "What does the 'FreeCuli Inside' badge represent?",
