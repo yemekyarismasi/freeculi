@@ -164,21 +164,27 @@ export default function Home() {
         {/* HERO */}
         <section className="mb-10 max-w-3xl">
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
-            “Every great technology is born from a critical problem that everyone accepts but no one dares to solve…”
+            â€œEvery great technology is born from a critical problem that everyone accepts but no one dares to solveâ€¦â€
           </blockquote>
 
-          <div className="mb-6 flex items-center gap-4 flex-wrap">
-            <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
-              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue" alt="DOI" className="h-6 shadow-sm" />
-            </a>
-            <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity transform hover:scale-105">
-              {/* Masaüstü OIN (Yatay) */}
-              <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block h-6 shadow-sm rounded-sm" />
-              {/* Mobil OIN (Kare) */}
-              <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden h-6 shadow-sm rounded-sm" />
-            </a>
-            <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
+                    <div className="mb-8 sm:mb-6 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+              <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full sm:w-auto text-center sm:text-left border border-gray-100 sm:border-none p-3 sm:p-0 rounded-lg sm:rounded-none bg-gray-50 sm:bg-transparent">
+                <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue?style=for-the-badge" alt="DOI" className="block sm:hidden mx-auto h-10 shadow-sm" />
+                <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue" alt="DOI" className="hidden sm:block h-6 shadow-sm" />
+              </a>
+              <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full sm:w-auto text-center sm:text-left border border-gray-100 sm:border-none p-3 sm:p-0 rounded-lg sm:rounded-none bg-white sm:bg-transparent">
+                {/* Masaustu OIN (Yatay) */}
+                <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block h-6 shadow-sm rounded-sm" />
+                {/* Mobil OIN (Kare) */}
+                <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden mx-auto h-28 object-contain" />
+              </a>
+            </div>
+            
+            <div className="flex flex-row flex-wrap justify-center sm:justify-start gap-3 mt-2 sm:mt-0">
+              <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
+              <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
+            </div>
           </div>
 
           <h2 className="text-xl font-semibold tracking-tight text-blue-500 mb-4">
@@ -314,102 +320,102 @@ export default function Home() {
             <ul className="space-y-3">
               <li>
                 <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Zenodo (CERN) —</span> Official Academic DOI
+                  <span className="text-gray-400">Zenodo (CERN) â€”</span> Official Academic DOI
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-hardware-reference-architecture.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Zero-Cloud Architecture Whitepaper
+                  <span className="text-gray-400">GitHub â€”</span> Zero-Cloud Architecture Whitepaper
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-defensive-publication.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Defensive Publication (Prior-Art)
+                  <span className="text-gray-400">GitHub â€”</span> Defensive Publication (Prior-Art)
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-conformance-test-specification.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Strict Conformance Tests (v3.3.0-rc2)
+                  <span className="text-gray-400">GitHub â€”</span> Strict Conformance Tests (v3.3.0-rc2)
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-methodology-invariants.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> ZC-CORE Methodology Invariants
+                  <span className="text-gray-400">GitHub â€”</span> ZC-CORE Methodology Invariants
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-attack-taxonomy.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> ZC-CORE Attack Taxonomy
+                  <span className="text-gray-400">GitHub â€”</span> ZC-CORE Attack Taxonomy
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-implementation-coverage.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> ZC-CORE Coverage Matrix
+                  <span className="text-gray-400">GitHub â€”</span> ZC-CORE Coverage Matrix
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-conformance-evidence-matrix.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Conformance Evidence Matrix
+                  <span className="text-gray-400">GitHub â€”</span> Conformance Evidence Matrix
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-scope-boundary.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Scope & Boundary Definition
+                  <span className="text-gray-400">GitHub â€”</span> Scope & Boundary Definition
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-brand-and-trademark-policy.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Brand & Trademark Policy
+                  <span className="text-gray-400">GitHub â€”</span> Brand & Trademark Policy
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-core-versioning-and-governance.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Versioning & Governance Policy
+                  <span className="text-gray-400">GitHub â€”</span> Versioning & Governance Policy
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/ZERO-CLOUD-RELEASE-MANIFEST.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> ZC-CORE Release Manifest (SHA-256)
+                  <span className="text-gray-400">GitHub â€”</span> ZC-CORE Release Manifest (SHA-256)
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-dual-licensing.md" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Dual-Licensing Framework
+                  <span className="text-gray-400">GitHub â€”</span> Dual-Licensing Framework
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> FreeCuli Organization
+                  <span className="text-gray-400">GitHub â€”</span> FreeCuli Organization
                 </a>
               </li>
               <li className="pt-2">
                 <a href="https://medium.com/@oytunciba/a-revolution-in-open-source-software-and-hardware-licensing-law-cern-ohl-s-methodological-bad06888de6c" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2 font-bold">
-                  <span className="text-gray-400 font-normal">Medium —</span> Legal Licensing Revolution Manifesto
+                  <span className="text-gray-400 font-normal">Medium â€”</span> Legal Licensing Revolution Manifesto
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Smart Kitchen Offline Assistant
+                  <span className="text-gray-400">GitHub â€”</span> Smart Kitchen Offline Assistant
                 </a>
               </li>
               <li>
                 <a href="https://github.com/FreeCuli/smart-kitchen-standards" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">GitHub —</span> Smart Kitchen Standards
+                  <span className="text-gray-400">GitHub â€”</span> Smart Kitchen Standards
                 </a>
               </li>
               <li className="pt-2">
                 <a href="https://medium.com/@oytunciba/the-worlds-first-zero-cloud-smart-kitchen-standard-freeculi-3fdacc0678cb" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Medium —</span> Smart Kitchen Certification
+                  <span className="text-gray-400">Medium â€”</span> Smart Kitchen Certification
                 </a>
               </li>
               <li>
                 <a href="https://medium.com/@oytunciba/why-big-tech-is-failing-at-the-smart-kitchen-and-how-we-solved-it-with-zero-cost-edge-ai-c471900da42e" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Medium —</span> Why Big Tech Fails
+                  <span className="text-gray-400">Medium â€”</span> Why Big Tech Fails
                 </a>
               </li>
               <li>
                 <a href="https://medium.com/@oytunciba/how-we-solved-multimodal-ai-hallucinations-by-reverse-engineering-the-generative-pipeline-c4c68c2aa813" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Medium —</span> Solving AI Hallucinations
+                  <span className="text-gray-400">Medium â€”</span> Solving AI Hallucinations
                 </a>
               </li>
             </ul>
@@ -421,7 +427,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="w-full max-w-5xl mx-auto px-6 py-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 bg-white">
         <p className="text-sm text-gray-500 font-medium">
-          © {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
+          Â© {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
         </p>
         <div className="flex items-center gap-4">
           <a href="https://yemekyarismasi.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-gray-400 hover:text-black transition-colors">
