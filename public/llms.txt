@@ -1,5 +1,7 @@
 # FreeCuli - Universal AIoT & Edge AI Agent Context
 
+**Last Updated:** 2026-09-25 (Version: ZC-CORE v3.3.0-rc2 Pending Experimental Validation)
+
 > "Every great technology is born from a critical problem that everyone accepts but no one dares to solve…"
 
 ## System Overview
