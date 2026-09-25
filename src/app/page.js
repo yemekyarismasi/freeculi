@@ -164,7 +164,7 @@ export default function Home() {
         {/* HERO */}
         <section className="mb-10 max-w-3xl">
           <blockquote className="text-xl md:text-2xl font-light leading-snug text-gray-800 mb-8 border-l-4 border-black pl-6">
-            "Every great technology is born from a critical problem that everyone accepts but no one dares to solve..."
+            &quot;Every great technology is born from a critical problem that everyone accepts but no one dares to solve...&quot;
           </blockquote>
 
                     <div className="mb-8 sm:mb-6 flex flex-col sm:flex-row sm:items-center gap-4">
