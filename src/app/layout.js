@@ -32,6 +32,9 @@ export const metadata = {
     title: "FreeCuli - Universal Zero-Cloud Hardware Methodology",
     description: "The commercial certification brand for the ZC-CORE methodology.",
   },
+  verification: {
+    google: '8XPi0nf_PN-jeCRfBZA3lmTEhY_A4SW8U6PkdwZCpMs',
+  },
   robots: {
     index: true,
     follow: true,
