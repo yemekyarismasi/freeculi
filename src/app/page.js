@@ -10,12 +10,28 @@ export default function Home() {
     <div className="min-h-screen bg-white text-black font-sans selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       {/* HEADER */}
       <header className="w-full max-w-5xl mx-auto px-6 py-6 sm:py-8 relative z-20 bg-white">
-        <div className="flex flex-row justify-between items-start sm:items-center">
-          <h1 className="flex flex-col sm:flex-row sm:items-baseline sm:gap-3">
-            <span className="text-xl md:text-2xl tracking-tight text-black">
-              <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
-            </span>
-            <span className="hidden sm:inline text-gray-300 text-xl font-normal">|</span>
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center w-full gap-1 sm:gap-0">
+          <div className="flex flex-row justify-between items-center w-full sm:w-auto">
+            <h1 className="flex flex-row items-baseline gap-3">
+              <span className="text-xl md:text-2xl tracking-tight text-black">
+                <span className="font-bold">Free</span><span className="font-bold text-blue-600">Culi</span>
+              </span>
+              <span className="hidden sm:inline text-gray-300 text-xl font-normal">|</span>
+              <span className="hidden sm:inline text-lg text-gray-600 font-normal tracking-tight">
+                Universal Zero-Cloud Hardware Methodology
+              </span>
+            </h1>
+            <p className="block sm:hidden text-xs text-gray-500 font-bold uppercase tracking-wider text-right whitespace-nowrap">
+              ZC-CORE Standard
+            </p>
+          </div>
+          <h2 className="block sm:hidden text-base text-gray-600 font-normal tracking-tight w-full">
+            Universal Zero-Cloud Hardware Methodology
+          </h2>
+          <p className="hidden sm:block text-sm text-gray-500 font-medium uppercase tracking-wider text-right whitespace-nowrap ml-4">
+            ZC-CORE Standard
+          </p>
+        </div>|</span>
             <span className="text-[10px] sm:text-lg text-gray-600 mt-1 sm:mt-0 font-normal tracking-tight whitespace-nowrap">
               Universal Zero-Cloud Hardware Methodology
             </span>
