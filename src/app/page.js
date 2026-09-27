@@ -167,23 +167,24 @@ export default function Home() {
             &quot;Every great technology is born from a critical problem that everyone accepts but no one dares to solve...&quot;
           </blockquote>
 
-                    <div className="mb-8 sm:mb-6 flex flex-col sm:flex-row sm:items-center gap-4">
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-              <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full sm:w-auto text-center sm:text-left border border-gray-100 sm:border-none p-3 sm:p-0 rounded-lg sm:rounded-none bg-gray-50 sm:bg-transparent">
-                <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue?style=for-the-badge" alt="DOI" className="block sm:hidden mx-auto h-10 shadow-sm" />
-                <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue" alt="DOI" className="hidden sm:block h-6 shadow-sm" />
-              </a>
-              <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full sm:w-auto text-center sm:text-left border border-gray-100 sm:border-none p-3 sm:p-0 rounded-lg sm:rounded-none bg-white sm:bg-transparent">
-                {/* Masaustu OIN (Yatay) */}
-                <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block h-6 shadow-sm rounded-sm" />
-                {/* Mobil OIN (Kare) */}
-                <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden mx-auto h-28 object-contain" />
-              </a>
-            </div>
+                    <div className="mb-10 flex flex-col gap-4 w-full">
+            <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full text-center border border-gray-100 p-3 rounded-xl bg-gray-50 shadow-sm">
+              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue?style=for-the-badge" alt="DOI" className="mx-auto h-8 sm:h-10 shadow-sm rounded-sm" />
+            </a>
             
-            <div className="flex flex-row flex-wrap justify-center sm:justify-start gap-3 mt-2 sm:mt-0">
-              <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-md border border-blue-200">CERN-OHL-S Certified</span>
-              <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-md border border-gray-200">CC-BY-ND 4.0</span>
+            <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full text-center border border-gray-100 p-4 rounded-xl bg-white shadow-sm">
+              {/* OIN Masaustu ve Mobilde Ayni Orantida (Yatay Buyuk) */}
+              <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block mx-auto h-12 object-contain" />
+              <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden mx-auto h-24 object-contain" />
+            </a>
+            
+            <div className="flex flex-row w-full gap-3 mt-1">
+              <span className="flex-1 flex items-center justify-center px-2 py-3 bg-blue-50 text-blue-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-xl border border-blue-200 text-center shadow-sm">
+                CERN-OHL-S Certified
+              </span>
+              <span className="flex-1 flex items-center justify-center px-2 py-3 bg-gray-50 text-gray-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-xl border border-gray-200 text-center shadow-sm">
+                CC-BY-ND 4.0
+              </span>
             </div>
           </div>
 
