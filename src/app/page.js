@@ -192,7 +192,7 @@ export default function Home() {
               <a href="https://github.com/FreeCuli/zero-cloud-hardware-architecture/blob/main/zero-cloud-dual-licensing.md" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center px-2 py-4 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs sm:text-sm font-black uppercase tracking-widest rounded-xl border border-blue-200 text-center shadow-sm transition-colors cursor-pointer">
                 CERN-OHL-S
               </a>
-              <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center px-2 py-4 bg-gray-50 hover:bg-gray-100 text-gray-800 text-xs sm:text-sm font-black uppercase tracking-widest rounded-xl border border-gray-300 text-center shadow-sm transition-colors cursor-pointer">
+              <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode.en" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center px-2 py-4 bg-gray-50 hover:bg-gray-100 text-gray-800 text-xs sm:text-sm font-black uppercase tracking-widest rounded-xl border border-gray-300 text-center shadow-sm transition-colors cursor-pointer">
                 CC-BY-ND 4.0
               </a>
             </div>
