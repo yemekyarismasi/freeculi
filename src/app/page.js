@@ -427,7 +427,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="w-full max-w-5xl mx-auto px-6 py-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 bg-white">
         <p className="text-sm text-gray-500 font-medium">
-          Ã‚Â© {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
+          Ã‚� {new Date().getFullYear()} FreeCuli open-source under <a href="https://github.com/FreeCuli/smart-kitchen-offline-assistant/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">AGPL-3.0</a>.
         </p>
         <div className="flex items-center gap-4">
           <a href="https://yemekyarismasi.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-gray-400 hover:text-black transition-colors">
