@@ -25,18 +25,10 @@ export default function Home() {
               ZC-CORE Standard
             </p>
           </div>
-          <h2 className="block sm:hidden text-base text-gray-600 font-normal tracking-tight w-full">
+          <h2 className="block sm:hidden text-base text-gray-600 font-normal tracking-tight w-full mt-1">
             Universal Zero-Cloud Hardware Methodology
           </h2>
           <p className="hidden sm:block text-sm text-gray-500 font-medium uppercase tracking-wider text-right whitespace-nowrap ml-4">
-            ZC-CORE Standard
-          </p>
-        </div>|</span>
-            <span className="text-[10px] sm:text-lg text-gray-600 mt-1 sm:mt-0 font-normal tracking-tight whitespace-nowrap">
-              Universal Zero-Cloud Hardware Methodology
-            </span>
-          </h1>
-          <p className="text-[9px] sm:text-sm text-gray-500 font-bold sm:font-medium uppercase tracking-wider text-right mt-1.5 sm:mt-0 whitespace-nowrap ml-2 sm:ml-4">
             ZC-CORE Standard
           </p>
         </div>
