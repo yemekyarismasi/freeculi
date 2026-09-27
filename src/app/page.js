@@ -191,24 +191,24 @@ export default function Home() {
             The world&apos;s first edge-native, zero-cloud hardware certification standard.
           </h2>
           <p className="text-xl font-normal tracking-tight text-black mb-8">
-            Zero cloud. Zero cost. Absolute hands-free freedom. Absolute privacy. Welcome to the era of FreeCuli!
+            Zero cloud. Zero latency. Unhackable hardware trust boundaries. Welcome to the era of FreeCuli for Universal AIoT & Edge AI!
           </p>
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-start gap-3">
               <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-              <span><strong>Zero cloud:</strong> End of cloud dependency and server bills (Architectural independence).</span>
+              <span><strong>Zero-Cloud Edge AI:</strong> 100% local execution using highly quantized SLMs and deterministic intent parsers, entirely eliminating cloud dependency and latency.</span>
             </li>
             <li className="flex items-start gap-3">
               <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-              <span><strong>Zero cost:</strong> Complete elimination of lifelong cloud operational expenses (Financial edge for manufacturers).</span>
+              <span><strong>Hardware Trust Boundary:</strong> Hardware-level isolation via physical Data Diodes, converting probabilistic AI outputs into strictly falsifiable electrical signals.</span>
             </li>
             <li className="flex items-start gap-3">
               <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-              <span><strong>Absolute hands-free freedom:</strong> Eradication of physical barriers caused by wet/floury hands and background noise in the kitchen (UX freedom).</span>
+              <span><strong>Zero Cost AIoT:</strong> Complete elimination of lifelong recurring API costs and subscription bills for both hardware manufacturers and end-users.</span>
             </li>
             <li className="flex items-start gap-3">
               <svg className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-              <span><strong>Absolute privacy:</strong> Zero risk at the architectural level against data leaks and compliance nightmares like GDPR/KVKK (Legal and privacy shield).</span>
+              <span><strong>Absolute Privacy Compliance:</strong> Zero risk at the architectural level against data leaks, instantly neutralizing GDPR, HIPAA, and KVKK compliance nightmares.</span>
             </li>
           </ul>
         </section>
