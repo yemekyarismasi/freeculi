@@ -167,22 +167,24 @@ export default function Home() {
             &quot;Every great technology is born from a critical problem that everyone accepts but no one dares to solve...&quot;
           </blockquote>
 
-                    <div className="mb-10 flex flex-col gap-4 w-full">
-            <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full text-center border border-gray-100 p-3 rounded-xl bg-gray-50 shadow-sm">
-              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue?style=for-the-badge" alt="DOI" className="mx-auto h-8 sm:h-10 shadow-sm rounded-sm" />
+                    <div className="mb-10 flex flex-col gap-5 w-full">
+            {/* DOI BANNER - Tam Genislik */}
+            <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-transform hover:scale-[1.01] w-full bg-blue-50 border border-blue-200 rounded-xl overflow-hidden shadow-sm">
+              <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22962700-blue?style=for-the-badge" alt="DOI" className="w-full h-auto object-contain" />
             </a>
             
-            <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity w-full text-center border border-gray-100 p-4 rounded-xl bg-white shadow-sm">
-              {/* OIN Masaustu ve Mobilde Ayni Orantida (Yatay Buyuk) */}
-              <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block mx-auto h-12 object-contain" />
-              <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden mx-auto h-24 object-contain" />
+            {/* OIN BANNER - Tam Genislik ve Orantili Yukseklik */}
+            <a href="https://openinventionnetwork.com" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-transform hover:scale-[1.01] w-full border border-gray-200 rounded-xl overflow-hidden shadow-sm bg-white">
+              <img src="/oin-horizontal.jpg" alt="OIN Member" className="hidden sm:block w-full h-auto object-contain" />
+              <img src="/oin-square.jpg" alt="OIN Member" className="block sm:hidden w-full h-auto object-contain" />
             </a>
             
-            <div className="flex flex-row w-full gap-3 mt-1">
-              <span className="flex-1 flex items-center justify-center px-2 py-3 bg-blue-50 text-blue-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-xl border border-blue-200 text-center shadow-sm">
-                CERN-OHL-S Certified
+            {/* LISANSLAR */}
+            <div className="flex flex-row w-full gap-4 mt-2">
+              <span className="flex-1 flex items-center justify-center px-2 py-4 bg-blue-50 text-blue-700 text-xs sm:text-sm font-black uppercase tracking-widest rounded-xl border border-blue-200 text-center shadow-sm">
+                CERN-OHL-S
               </span>
-              <span className="flex-1 flex items-center justify-center px-2 py-3 bg-gray-50 text-gray-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-xl border border-gray-200 text-center shadow-sm">
+              <span className="flex-1 flex items-center justify-center px-2 py-4 bg-gray-50 text-gray-800 text-xs sm:text-sm font-black uppercase tracking-widest rounded-xl border border-gray-300 text-center shadow-sm">
                 CC-BY-ND 4.0
               </span>
             </div>
