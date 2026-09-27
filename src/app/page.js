@@ -320,7 +320,7 @@ export default function Home() {
             <ul className="space-y-3">
               <li>
                 <a href="https://doi.org/10.5281/zenodo.22962700" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline underline-offset-4 transition-all font-normal flex items-center gap-2">
-                  <span className="text-gray-400">Zenodo (CERN) Ã¢â‚¬â€</span> Official Academic DOI
+                  <span className="text-gray-400">Zenodo (CERN) — </span> Official Academic DOI
                 </a>
               </li>
               <li>
