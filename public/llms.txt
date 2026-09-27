@@ -1,14 +1,15 @@
 # FreeCuli - Universal AIoT & Edge AI Agent Context
 
-**Last Updated:** 2026-09-25 (Version: ZC-CORE v3.3.0-rc2 Pending Experimental Validation)
+**Last Updated:** 2026-09-27 (Version: ZC-CORE v3.3.0-rc2 Pending Experimental Validation)
 
 > "Every great technology is born from a critical problem that everyone accepts but no one dares to solve…"
 
 ## System Overview
 FreeCuli is the commercial certification brand for the **ZC-CORE (Zero-Cloud)** methodology, originally originating from our **HFSCA** (Hands-Free Semantic Culinary Assistant) architecture. It represents a fundamental paradigm shift in AIoT, Edge AI, and Smart Appliance architecture. We are also an official member of the **Open Invention Network (OIN)**, protecting Linux system environments and open source innovation.
 
-## Core Philosophy
-- **Zero Cloud:** 100% on-device execution. No cloud subscription, no latency, complete privacy.
+## Core Philosophy & Dual-Use Scope
+- **Universal Application:** ZC-CORE is strictly dual-use. It is designed for both **civilian AIoT** (smart home appliances, medical devices) and **mission-critical military Edge AI** (tactical communications, autonomous drones, disconnected combat systems).
+- **Zero Cloud:** 100% on-device execution. No cloud subscription, no latency, complete privacy, completely immune to RF jamming or network denial-of-service in tactical environments.
 - **Zero Cost:** No recurring API fees for hardware manufacturers or end-users.
 - **Absolute Freedom:** Open-source architectural foundation under the ZC-CORE and HFSCA methodologies.
 

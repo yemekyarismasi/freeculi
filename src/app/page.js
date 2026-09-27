@@ -191,7 +191,7 @@ export default function Home() {
             The world&apos;s first edge-native, zero-cloud hardware certification standard.
           </h2>
           <p className="text-xl font-normal tracking-tight text-black mb-8">
-            Zero cloud. Zero latency. Unhackable hardware trust boundaries. Welcome to the era of FreeCuli for Universal AIoT & Edge AI!
+            Zero cloud. Zero latency. Unhackable hardware trust boundaries. Welcome to the era of FreeCuli for Civilian AIoT & Mission-Critical Military Edge AI!
           </p>
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-start gap-3">
@@ -226,7 +226,7 @@ export default function Home() {
             &quot;FreeCuli does not require trust. It requires reproducing the test.&quot;
           </p>
           <p className="text-gray-700 text-base mb-6 relative z-10 leading-relaxed">
-            We don&apos;t rely on privacy policies. We rely on the physical laws of electronics. If you are a hardware manufacturer looking to build true Zero-Cloud compliant appliances, your architecture must pass our strictly falsifiable, adversarial hardware testing constraints.
+            We don&apos;t rely on privacy policies. We rely on the physical laws of electronics. Whether for everyday civilian smart appliances or disconnected tactical defense systems, your architecture must pass our strictly falsifiable, adversarial hardware testing constraints.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 relative z-10">
